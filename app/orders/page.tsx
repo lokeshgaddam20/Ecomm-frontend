@@ -52,7 +52,7 @@ export default function OrdersPage() {
             </Button>
           </CardHeader>
           <CardContent>
-            <p className="mb-2">Amount: ₹{order.amount}</p>
+            <p className="mb-2"><span className="font-bold">Amount:</span> ₹{order.amount}</p>
             <p className="mb-4">Date Placed: {order.date}</p>
             <Timeline>
               <TimelineItem>
